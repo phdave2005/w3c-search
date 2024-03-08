@@ -1,0 +1,13 @@
+main#settings {
+    background: whitesmoke
+}
+
+.dialog.fail {
+	color: red;
+	background: rgb(255 0 0 / 0.1)
+}
+
+.dialog.success {
+	color: green;
+	background: rgb(0 255 0 / 0.1)
+}
