@@ -110,7 +110,6 @@ class Settings extends Component {
                     val = set[i].checked ? 1 : 0;
                 }
                 storage.setItem(set[i].id, val);
-                storage.setItem(set[i].id, val);
                 if (set[i].id === 'language-used') {
                     this.languageUsed = set[i].value;
                     this.setSettingsState();
@@ -184,7 +183,7 @@ class Settings extends Component {
                         </div>
                         <div className="flex-field-half-wrapper MT32">
                             <div className="flex-field half">
-                                <input id="search-limit" step="any" min="1" type="number" data-validations="positiveNumber" data-search-category="payload" onKeyUp={this.handleNumberChange} />
+                                <input id="search-limit" className="field" step="any" min="1" type="number" data-validations="positiveNumber" data-search-category="payload" onKeyUp={this.handleNumberChange} />
                                 <LabelElement labelFor={'search-limit'} text={this.state.text.label.searchLimit} />
                             </div>
                             <div className="flex-field half">
