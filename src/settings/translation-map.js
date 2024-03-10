@@ -153,9 +153,9 @@ export const TEXT_MAP = {
         label: {
             language: 'اللغة المستخدمة',
             download: 'تنزيل النتائج',
-            publicKey: 'المفتاح العام لـ CSSBurner',
+            publicKey: 'المفتاح العام لـ <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>',
             searchLimit: 'حد نتائج البحث',
-            username: 'اسم مستخدم CSSBurner'
+            username: 'اسم مستخدم <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>'
         },
         button: 'تحديث',
         storageEvent: {
@@ -172,9 +172,9 @@ export const TEXT_MAP = {
         label: {
             language: 'Verwendete Sprache',
             download: 'Ergebnisse herunterladen',
-            publicKey: 'Öffentlicher CSSBurner-Schlüssel',
+            publicKey: 'Öffentlicher <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>-Schlüssel',
             searchLimit: 'Begrenzung der Suchtreffer',
-            username: 'CSSBurner-Benutzername'
+            username: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>-Benutzername'
         },
         button: 'Aktualisieren',
         storageEvent: {
@@ -191,9 +191,9 @@ export const TEXT_MAP = {
         label: {
             language: 'Language Used',
             download: 'Download results',
-            publicKey: 'CSSBurner public key',
+            publicKey: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> public key',
             searchLimit: 'Search hits limit',
-            username: 'CSSBurner username'
+            username: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> username'
         },
         button: 'Update',
         storageEvent: {
@@ -210,9 +210,9 @@ export const TEXT_MAP = {
         label: {
             language: 'Idioma Usado',
             download: 'Descargar resultados',
-            publicKey: 'Clave pública CSSBurner',
+            publicKey: 'Clave pública <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>',
             searchLimit: 'Límite de resultados de búsqueda',
-            username: 'Nombre de usuario de CSSBurner'
+            username: 'Nombre de usuario de <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>'
         },
         button: 'Actualizar',
         storageEvent: {
@@ -229,9 +229,9 @@ export const TEXT_MAP = {
         label: {
             language: 'Langue Utilisée',
             download: 'Télécharger les résultats',
-            publicKey: 'Clé publique CSSBurner',
+            publicKey: 'Clé publique <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>',
             searchLimit: 'La limite de résultats de recherche est atteinte',
-            username: 'Nom d\'utilisateur CSSBurner'
+            username: 'Nom d\'utilisateur <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>'
         },
         button: 'Mettre à Jour',
         storageEvent: {
@@ -248,9 +248,9 @@ export const TEXT_MAP = {
         label: {
             language: 'भाषा का प्रयोग किया गया',
             download: 'परिणाम डाउनलोड करें',
-            publicKey: 'सीएसएसबर्नर सार्वजनिक कुंजी',
+            publicKey: 'सीएसएसबर्नर सार्वजनिक कुंजी <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>',
             searchLimit: 'Search hits limit',
-            username: 'सीएसएसबर्नर उपयोक्तानाम'
+            username: 'सीएसएसबर्नर उपयोक्तानाम <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>'
         },
         button: 'अद्यतन',
         storageEvent: {
@@ -267,9 +267,9 @@ export const TEXT_MAP = {
         label: {
             language: 'Lingua Utilizzata',
             download: 'Scarica i risultati',
-            publicKey: 'Chiave pubblica CSSBurner',
+            publicKey: 'Chiave pubblica <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>',
             searchLimit: 'Limite risultati di ricerca',
-            username: 'Nome utente CSSBurner'
+            username: 'Nome utente <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>'
         },
         button: 'Aggiornare',
         storageEvent: {
@@ -286,9 +286,9 @@ export const TEXT_MAP = {
         label: {
             language: '使用言語',
             download: 'ダウンロード結果',
-            publicKey: 'CSSBurner 公開キー',
+            publicKey: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> 公開キー',
             searchLimit: '検索ヒット数の制限',
-            username: 'CSSBurner ユーザー名'
+            username: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> ユーザー名'
         },
         button: 'アップデート',
         storageEvent: {
@@ -305,9 +305,9 @@ export const TEXT_MAP = {
         label: {
             language: '사용언어',
             download: '결과 다운로드',
-            publicKey: 'CSSBurner 공개 키',
+            publicKey: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> 공개 키',
             searchLimit: '검색이 한도에 도달했습니다.',
-            username: 'CSSBurner 사용자 이름'
+            username: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> 사용자 이름'
         },
         button: '업데이트',
         storageEvent: {
@@ -324,9 +324,9 @@ export const TEXT_MAP = {
         label: {
             language: 'Используемый язык',
             download: 'Скачать результаты',
-            publicKey: 'Открытый ключ CSSBurner',
+            publicKey: 'Открытый ключ <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>',
             searchLimit: 'Лимит поисковых совпадений',
-            username: 'Имя пользователя CSSBurner'
+            username: 'Имя пользователя <a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a>'
         },
         button: 'Обновлять',
         storageEvent: {
@@ -343,9 +343,9 @@ export const TEXT_MAP = {
         label: {
             language: '使用語言',
             download: '下載結果',
-            publicKey: 'CSSBurner 公鑰',
+            publicKey: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> 公鑰',
             searchLimit: '搜尋命中限制',
-            username: 'CSSBurner 使用者名稱'
+            username: '<a href="https://cssburner.com" target="_blank" rel="noreferrer">CSSBurner</a> 使用者名稱'
         },
         button: '更新',
         storageEvent: {
