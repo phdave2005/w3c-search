@@ -158,38 +158,51 @@ class Home extends Component {
                 this.processResponse(mockResponseData, filters);
             });
         } else {
-            const searchUrl = this.apiPath + '?type=getGlossaryTerms&scope=api&searchType=topic&' + this.constructQueryString(payload) + this.getQueryLimitParameter();
-            axios.get(
-                this.corsDomain + '/?' + encodeURIComponent(searchUrl)
-            )
-            .then((response) => {
-                if (response?.data?.terms?.length) {
-                    this.processResponse(response.data, filters);
-                } else {
-                    this.setState(state => (state.forms.validation = {
-                        error: {
-                            cl: 'invalid',
-                            text: this.textUsed.validation.error.noData
-                        },
-                        processing: {
-                            cl: 'DN',
-                            text: null
-                        }
-                    }, state));
-                }
-            })
-            .catch((error) => {
+            if (!window.localStorage?.getItem("username")?.length || !window.localStorage?.getItem("publickey")?.length) {
                 this.setState(state => (state.forms.validation = {
                     error: {
                         cl: 'invalid',
-                        text: this.textUsed.validation.error.api
+                        text: this.textUsed.validation.error.missingAuth
                     },
                     processing: {
                         cl: 'DN',
                         text: null
                     }
                 }, state));
-            });
+            } else {
+                const searchUrl = this.apiPath + '?type=getGlossaryTerms&scope=api&searchType=topic&' + this.constructQueryString(payload) + this.getQueryLimitParameter();
+                axios.get(
+                    this.corsDomain + '/?' + encodeURIComponent(searchUrl)
+                )
+                .then((response) => {
+                    if (response?.data?.terms?.length) {
+                        this.processResponse(response.data, filters);
+                    } else {
+                        this.setState(state => (state.forms.validation = {
+                            error: {
+                                cl: 'invalid',
+                                text: this.textUsed.validation.error.noData
+                            },
+                            processing: {
+                                cl: 'DN',
+                                text: null
+                            }
+                        }, state));
+                    }
+                })
+                .catch((error) => {
+                    this.setState(state => (state.forms.validation = {
+                        error: {
+                            cl: 'invalid',
+                            text: this.textUsed.validation.error.api
+                        },
+                        processing: {
+                            cl: 'DN',
+                            text: null
+                        }
+                    }, state));
+                });
+            }
         }
     }
 

@@ -21,7 +21,7 @@ body, html, #root, .App {
 /* Header|Footer */
 header, footer {
 	display: flex;
-	height: 30px;
+	height: 34px;
 	justify-content: space-between
 }
 
