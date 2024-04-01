@@ -46,7 +46,7 @@ const App = () => {
         }
     };
     const language =  window?.localStorage?.getItem("language-used") || 'en';
-    const [state, setState] = useState({
+    const [state] = useState({
         about: textMap[language].about
     });
     return (

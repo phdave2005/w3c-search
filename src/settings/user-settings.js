@@ -86,7 +86,7 @@ class Settings extends Component {
 
     detectLocalStorageLegacy = () => {
         try {
-            var value = '1',
+            const value = '1',
                 testkey = 'aaa',
                 storage = window.localStorage;
             storage.setItem(testkey, value);
@@ -102,7 +102,7 @@ class Settings extends Component {
         const storage = window.localStorage;
         const storageJSONInitial = JSON.stringify(storage);
         let i, val, storageJSONFinal,
-            textUsed = LANGUAGE_INFO.TEXT_MAP[this.languageUsed]
+            textUsed = LANGUAGE_INFO.TEXT_MAP[this.languageUsed];
         for(i in set) {
             if (set[i]?.nodeName) {
                 val = set[i].value;
