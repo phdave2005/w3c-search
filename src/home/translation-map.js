@@ -1,5 +1,6 @@
 export const TEXT = {
     ar: {
+        appTitle: 'بحث وحدة W3C',
         button: {
             text: 'يبحث'
         },
@@ -26,6 +27,7 @@ export const TEXT = {
         }
     },
     de: {
+        appTitle: 'W3C-Modulsuche',
         button: {
             text: 'Suchen'
         },
@@ -52,6 +54,7 @@ export const TEXT = {
         }
     },
     en: {
+        appTitle: 'W3C Module Search',
         button: {
             text: 'Search'
         },
@@ -78,6 +81,7 @@ export const TEXT = {
         }
     },
     es: {
+        appTitle: 'Búsqueda de módulos W3C',
         button: {
             text: 'Buscar'
         },
@@ -104,6 +108,7 @@ export const TEXT = {
         }
     },
     fr: {
+        appTitle: 'Recherche de modules W3C',
         button: {
             text: 'Recherche'
         },
@@ -130,6 +135,7 @@ export const TEXT = {
         }
     },
     hi: {
+        appTitle: 'W3C मॉड्यूल खोज',
         button: {
             text: 'खोज'
         },
@@ -156,6 +162,7 @@ export const TEXT = {
         }
     },
     it: {
+        appTitle: 'Ricerca moduli W3C',
         button: {
             text: 'Ricerca'
         },
@@ -182,6 +189,7 @@ export const TEXT = {
         }
     },
     ja: {
+        appTitle: 'W3C モジュールの検索',
         button: {
             text: '検索'
         },
@@ -208,6 +216,7 @@ export const TEXT = {
         }
     },
     ko: {
+        appTitle: 'W3C 모듈 검색',
         button: {
             text: '찾다'
         },
@@ -234,6 +243,7 @@ export const TEXT = {
         }
     },
     ru: {
+        appTitle: 'Поиск модулей W3C',
         button: {
             text: 'Поиск'
         },
@@ -260,6 +270,7 @@ export const TEXT = {
         }
     },
     zh: {
+        appTitle: 'W3C 模組搜尋',
         button: {
             text: '搜尋'
         },

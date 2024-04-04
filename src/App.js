@@ -8,46 +8,12 @@ import About from './about/about.js'
 import HelpIcon from './elements/help-icon/help-icon.js'
 import Settings from './settings/user-settings.js'
 import SettingsToggle from './elements/settings/settings-toggle.js'
+import TRANSLATION_MAP from './app-translation-map.js'
 
 const App = () => {
-    const textMap = {
-        ar: {
-            about: 'عن الدكتور بارتيكا'
-        },
-        de: {
-            about: 'Über Dr. Partyka'
-        },
-        en: {
-            about: 'About Dr. Partyka'
-        },
-        es: {
-            about: 'Acerca del Dr. Partyka'
-        },
-        fr: {
-            about: 'À propos du Dr Partyka'
-        },
-        hi: {
-            about: 'डॉ. पार्टीका के बारे में'
-        },
-        it: {
-            about: 'A proposito del dottor Partyka'
-        },
-        ja: {
-            about: 'パーティカ博士について'
-        },
-        ko: {
-            about: '닥터파티카 소개'
-        },
-        ru: {
-            about: 'О докторе Партике'
-        },
-        zh: {
-            about: '關於帕蒂卡博士'
-        }
-    };
     const language =  window?.localStorage?.getItem("language-used") || 'en';
     const [state] = useState({
-        about: textMap[language].about
+        about: TRANSLATION_MAP[language].about
     });
     return (
         <BrowserRouter>

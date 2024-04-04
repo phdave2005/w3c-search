@@ -444,7 +444,7 @@ class Home extends Component {
                             <p>{this.textUsed.processing.text}</p>
                         </div>
                         <form id="parameters-form" className={this.state.results.cl.match(/DN/) ? '' : 'DN'} data-testid="form" onSubmit={this.processFormSubmission}>
-                            <h1 className="form-heading">W3C Module Search</h1>
+                            <h1 className="form-heading">{this.textUsed.appTitle}</h1>
                             <MainForm language={this.language} />
                             <button type="button" onClick={this.search}>{this.textUsed.button.text}</button>
                             <button type="submit" className="DN"></button>
