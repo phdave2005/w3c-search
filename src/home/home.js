@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Tooltip } from 'react-tooltip'
 import axios from 'axios'
 import './home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -452,9 +453,12 @@ class Home extends Component {
                         <div id="results-container-parent" className={this.state.results.cl}>
                             <h1 className="M0">{this.textUsed.heading.searchResults} ({this.state.recentResponse?.terms?.length})</h1>
                             <div id="results-actions">
-                                <span onClick={this.reset}><FontAwesomeIcon icon={faRefresh} /></span>
-                                <span onClick={this.copyResponse}><FontAwesomeIcon icon={faCopy} /></span>
-                                <span onClick={this.downloadResponse}><FontAwesomeIcon icon={faDownload} /></span>
+                                <span onClick={this.reset} data-tooltip-id="reset" data-tooltip-content={this.textUsed.tooltip.reset}><FontAwesomeIcon icon={faRefresh} /></span>
+                                <Tooltip id="reset" />
+                                <span onClick={this.copyResponse} data-tooltip-id="copy" data-tooltip-content={this.textUsed.tooltip.copy}><FontAwesomeIcon icon={faCopy} /></span>
+                                <Tooltip id="copy" />
+                                <span onClick={this.downloadResponse} data-tooltip-id="download" data-tooltip-content={this.textUsed.tooltip.download}><FontAwesomeIcon icon={faDownload} /></span>
+                                <Tooltip id="download" />
                             </div>
                             <pre id="results-container" className="bgw" dangerouslySetInnerHTML={{__html: this.state.results.html}}></pre>
                         </div>

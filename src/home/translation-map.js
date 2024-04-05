@@ -10,6 +10,11 @@ export const TEXT = {
         processing: {
             text: 'يعالج'
         },
+        tooltip: {
+            copy: 'ينسخ',
+            download: 'تحميل',
+            reset: 'إعادة ضبط'
+        },
         validation: {
             error: {
                 api: 'حدث خطأ أثناء استرجاع البيانات!',
@@ -36,6 +41,11 @@ export const TEXT = {
         },
         processing: {
             text: 'Wird bearbeitet...'
+        },
+        tooltip: {
+            copy: 'Kopieren',
+            download: 'Herunterladen',
+            reset: 'Zurücksetzen'
         },
         validation: {
             error: {
@@ -64,6 +74,11 @@ export const TEXT = {
         processing: {
             text: 'Processing...'
         },
+        tooltip: {
+            copy: 'Copy',
+            download: 'Download',
+            reset: 'Reset'
+        },
         validation: {
             error: {
                 api: 'An error was encountered while retrieving the data!',
@@ -90,6 +105,11 @@ export const TEXT = {
         },
         processing: {
             text: 'Procesando...'
+        },
+        tooltip: {
+            copy: 'Copiar',
+            download: 'Descargar',
+            reset: 'Reinciar'
         },
         validation: {
             error: {
@@ -118,6 +138,11 @@ export const TEXT = {
         processing: {
             text: 'Traitement...'
         },
+        tooltip: {
+            copy: 'Copier',
+            download: 'Télécharger',
+            reset: 'Réinitialiser'
+        },
         validation: {
             error: {
                 api: 'Une erreur s\'est produite lors de la récupération des données!',
@@ -144,6 +169,11 @@ export const TEXT = {
         },
         processing: {
             text: 'प्रसंस्करण'
+        },
+        tooltip: {
+            copy: 'कॉपी',
+            download: 'डाउनलोड करना',
+            reset: 'रीसेट'
         },
         validation: {
             error: {
@@ -172,6 +202,11 @@ export const TEXT = {
         processing: {
             text: 'In Lavorazione...'
         },
+        tooltip: {
+            copy: 'Copiare',
+            download: 'Scaricare',
+            reset: 'Resettare'
+        },
         validation: {
             error: {
                 api: 'Si è verificato un errore durante il recupero dei dati!',
@@ -198,6 +233,11 @@ export const TEXT = {
         },
         processing: {
             text: '処理'
+        },
+        tooltip: {
+            copy: 'コピーする',
+            download: 'ダウンロードする',
+            reset: 'リセットする'
         },
         validation: {
             error: {
@@ -226,6 +266,11 @@ export const TEXT = {
         processing: {
             text: '처리'
         },
+        tooltip: {
+            copy: '복사하다',
+            download: '다운로드',
+            reset: '재설정하다'
+        },
         validation: {
             error: {
                 api: '데이터를 검색하는 동안 오류가 발생했습니다!',
@@ -253,6 +298,11 @@ export const TEXT = {
         processing: {
             text: 'Обработка...'
         },
+        tooltip: {
+            copy: 'копировать',
+            download: 'скачать',
+            reset: 'перезагрузить'
+        },
         validation: {
             error: {
                 api: '檢索資料時遇到錯誤！',
@@ -279,6 +329,11 @@ export const TEXT = {
         },
         processing: {
             text: '加工'
+        },
+        tooltip: {
+            copy: '複製',
+            download: '去下載',
+            reset: '重置'
         },
         validation: {
             error: {
